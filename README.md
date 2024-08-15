@@ -4,3 +4,5 @@ This repository features an image classifier developed with TensorFlow's Keras A
 1. Pre-trained MobileNetV2 Model: Utilizes the lightweight and efficient MobileNetV2 architecture, pre-trained on ImageNet, for image classification.
 2. Image Preprocessing: Handles image preprocessing, including resizing and normalization, to match the input requirements of the model.
 3. Top-3 Predictions: Outputs the top 3 predictions with associated confidence scores, along with the corresponding labels.
+# Model Architecture
+The model is based on the MobileNetV2 architecture, known for its efficiency and accuracy on mobile devices. It consists of a series of depthwise separable convolutions and pointwise convolutions, followed by fully connected layers for classification.
